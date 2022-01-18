@@ -17,6 +17,6 @@ public class TrailingZeroesInFactorial
             count+=n/5;
             n/=5;
         }
-        System.out.println(count);
+        System.out.println( count );
     }
 }
