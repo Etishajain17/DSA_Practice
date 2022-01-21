@@ -9,7 +9,7 @@ public class TrailingZeroesInFactorial
         Scanner sc= new Scanner(System.in);
 
         //Time Complexity --> O(log n)
-        System.out.println("Ënter the number : ");
+        System.out.println("Ënter    the number : ");
         int n=sc.nextInt();
         int count=0;
         while(n>4)
