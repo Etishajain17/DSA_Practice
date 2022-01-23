@@ -13,17 +13,25 @@ public class SearchValue2
 
         int mid = (startIndex+lastindex)/2;
 
-        if(arr[mid]==search_value)
-        {
-            return mid;
-        }
-        else if(search_value < arr[mid])
+
+        if(search_value < arr[mid])
         {
             return find2(arr,startIndex,mid-1,search_value);
         }
-        else
+        else if(search_value>arr[mid])
         {
             return find2(arr,mid+1,lastindex,search_value);
+        }
+        else
+        {
+            if(mid==0 || arr[mid-1]!=arr[mid])
+            {
+                return mid;
+            }
+            else
+            {
+                return find2(arr,startIndex,mid-1,search_value);
+            }
         }
     }
 }
