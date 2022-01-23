@@ -1,4 +1,4 @@
-package Day_5;
+package Day_5.XPowerN;
 
 import java.util.Scanner;
 
@@ -22,7 +22,6 @@ class main2
         int x=sc.nextInt();
         int n=sc.nextInt();
         XPowerN2 obj=new XPowerN2();
-        int p=1;
-        obj.power2(x,n,p);
+        obj.power2(x,n,1);
     }
 }

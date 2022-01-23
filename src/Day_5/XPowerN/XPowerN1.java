@@ -1,4 +1,4 @@
-package Day_5;
+package Day_5.XPowerN;
 
 import java.util.Scanner;
 
