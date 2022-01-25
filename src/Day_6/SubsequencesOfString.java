@@ -8,7 +8,7 @@ public class SubsequencesOfString
     {
         if(s.length()==0)
         {
-            System.out.println(" ");
+//            System.out.println(" ");
             return;
         }
         System.out.println(s.charAt(0));
@@ -23,6 +23,7 @@ class main4
     {
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
+        System.out.println(" ");
         SubsequencesOfString.str(s);
     }
 }
