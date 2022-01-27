@@ -11,12 +11,10 @@ public class Lexiographically
         System.out.print(initial+" ");
         int i=0;
         if(initial==0)
-        {
             i=1;
-        }
         while(i<10)
         {
-            order(initial*10+i,end);
+            order(initial * 10 + i, end);
             i++;
         }
     }
