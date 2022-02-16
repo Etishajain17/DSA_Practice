@@ -27,7 +27,7 @@ class QueueByLinkedList2
         }
     }
 }
-public class StrindModify3
+public class StringModify3
 {
     public static String modify3(String str)
     {
